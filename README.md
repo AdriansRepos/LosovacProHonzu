@@ -10,8 +10,8 @@ Nastavena ochrana proti neočekávanému vstupu při zadávání počtu výherc�
 
 K ukončení aplikace slouží libovolná klávesa.
 
-Ukázka kódu:
-
+## Ukázka kódu:
+```csharp
 while (true)
 
 {
