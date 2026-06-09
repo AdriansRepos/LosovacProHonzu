@@ -1,9 +1,11 @@
-Aplikace pro losování výherců.
-Jména zadává uživatel oddělená pouze mezerou.
-Počet výherců si může vybrat zadáním čísla.
-Nastavena ochrana proti neočekávanému vstupu při zadávání počtu výherců:
-číslo musí být rovno 1, nebo vyšší, konečný počet je řešen jako soutěžící - 1.
-K ukončení aplikace slouží libovolná klávesa.
+#Aplikace pro losování výherců.
+
+##Funkce programu:
+- Jména zadává uživatel oddělená pouze mezerou.
+- Počet výherců si může vybrat zadáním čísla.
+- Nastavena ochrana proti neočekávanému vstupu při zadávání počtu výherců:
+  číslo musí být rovno 1, nebo vyšší, konečný počet je řešen jako soutěžící - 1.
+- K ukončení aplikace slouží libovolná klávesa.
 
 ## Ukázka kódu:
 ```csharp
