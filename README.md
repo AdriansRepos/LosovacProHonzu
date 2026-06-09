@@ -40,6 +40,7 @@ while (true)
 &#x20;   pocetInput = Console.ReadLine();
 
 }
+```
 
 **Release**
 Aktuální verze: v1.0.0
