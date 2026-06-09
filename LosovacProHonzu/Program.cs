@@ -5,11 +5,13 @@ string[] soutezici = vstup
     .Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
 Console.Write("Kolik výherců chceš vylosovat: ");
-string? pocetInput = Console.ReadLine();
+string? pocetInput;
 int pocet;
 
 while (true)
 {
+    pocetInput = Console.ReadLine();
+
     if (int.TryParse(pocetInput, out pocet))
     {
         if (pocet >= 1 && pocet < soutezici.Length)
@@ -23,8 +25,6 @@ while (true)
     {
         Console.WriteLine("Neplatný počet. Zadej prosím celé číslo:");
     }
-
-    pocetInput = Console.ReadLine();
 }
 
 Random r = new Random();
