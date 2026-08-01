@@ -14,36 +14,25 @@ while (true)
 
 {
 
-&#x20;   if (int.TryParse(pocetInput, out pocet))
+   if (int.TryParse(pocetInput, out pocet))
 
-&#x20;   {
+   {
 
-&#x20;       if (pocet >= 1 \&\& pocet < soutezici.Length)
-
-&#x20;       {
-
-&#x20;           break;
-
-&#x20;       }
-
-&#x20;       Console.WriteLine($"Zadej číslo mezi 1 a {soutezici.Length - 1}:");
-
-&#x20;   }
-
-&#x20;   else
-
-&#x20;   {
-
-&#x20;       Console.WriteLine("Neplatný počet. Zadej prosím celé číslo:");
-
-&#x20;   }
-
-&#x20;   pocetInput = Console.ReadLine();
-
+       if (pocet >= 1 \&\& pocet < soutezici.Length)
+       {
+           break;
+       }
+       Console.WriteLine($"Zadej číslo mezi 1 a {soutezici.Length - 1}:");
+   }
+   else
+   {
+       Console.WriteLine("Neplatný počet. Zadej prosím celé číslo:");
+   }
+   pocetInput = Console.ReadLine();
 }
 ```
 
 ### Release
-- Aktuální verze: v1.0.0
-- Stáhnout zde: Releases
-https://github.com/AdriansRepos/LosovacProHonzu/releases
+
+**v1.0.0** – První verze programu pro losování výherců.  
+[Stáhnout zde](https://github.com/AdriansRepos/LosovacProHonzu/releases/tag/v1.0.0)
